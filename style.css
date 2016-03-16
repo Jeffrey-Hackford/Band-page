@@ -1,4 +1,40 @@
 .column {
   float: left;
-  width: 33%;
+  width: 25%;
+  border: 10px solid green;
+  padding: 10px;
+  margin: 30px;
+}
+
+.left {
+  float: left;
+  clear: both;
+  width: 30%
+}
+
+.right {
+  float: right;
+  clear: both;
+  width: 30%
+}
+
+.center {
+  clear: both;
+  width: 30%
+}
+
+.sidebar {
+  float: left;
+  width: 25%;
+  border: 10px solid green;
+  padding: 10px;
+  margin: 30px;
+  background-color: blue
+}
+
+img {
+  padding: 20px;
+  background-color: red;
+  width: 25%;
+  height: 25%;
 }
